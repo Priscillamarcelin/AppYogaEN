@@ -13,19 +13,19 @@ export default function AboutScreen() {
         <ScrollView showsVerticalScrollIndicator={false}>
           {/* Header */}
           <View style={styles.header}>
-            <Text style={styles.title}>About o Método</Text>
+            <Text style={styles.title}>About the Method</Text>
             <Text style={styles.subtitle}>
-              Descubra o poder transformador do Yoga Facial
+              Discover the transformative power of Facial Yoga
             </Text>
           </View>
 
           {/* Hero Image */}
           <View style={styles.heroContainer}>
             <Image
-  source={{ uri: 'https://i.ibb.co/Mx68M5tM/cover-png.png' }} // <- link novo
-  style={styles.heroImage}
-  resizeMode="cover"
-/>
+              source={{ uri: 'https://i.ibb.co/Mx68M5tM/cover-png.png' }}
+              style={styles.heroImage}
+              resizeMode="cover"
+            />
           </View>
 
           {/* What is Facial Yoga */}
@@ -36,7 +36,7 @@ export default function AboutScreen() {
 
           {/* Benefits */}
           <View style={styles.sectionContainer}>
-            <Text style={styles.sectionTitle}>Benefícios Comprovados</Text>
+            <Text style={styles.sectionTitle}>Proven Benefits</Text>
             <View style={styles.benefitsList}>
               {aboutContent.benefits.map((benefit, index) => (
                 <View key={index} style={styles.benefitItem}>
@@ -49,41 +49,39 @@ export default function AboutScreen() {
 
           {/* How it Works */}
           <View style={styles.sectionContainer}>
-            <Text style={styles.sectionTitle}>Como Funciona</Text>
+            <Text style={styles.sectionTitle}>How It Works</Text>
             <Text style={styles.sectionText}>
-              O yoga facial trabalha fortalecendo os 57 músculos do rosto através de exercícios 
-              específicos e controlados. Assim como o corpo, os músculos faciais respondem ao 
-              exercício, tornando-se mais firmes, tonificados e definidos.
+              Facial yoga works by strengthening the 57 muscles in your face through specific, controlled exercises. Just like your body, your facial muscles respond to training, becoming firmer, more toned, and better defined.
             </Text>
-            
+
             <View style={styles.processContainer}>
               <View style={styles.processStep}>
                 <View style={styles.stepNumber}>
                   <Text style={styles.stepNumberText}>1</Text>
                 </View>
-                <Text style={styles.stepTitle}>Aquecimento</Text>
+                <Text style={styles.stepTitle}>Warm-up</Text>
                 <Text style={styles.stepDescription}>
-                  Preparamos os músculos com movimentos suaves
+                  We begin with gentle movements to prepare the muscles
                 </Text>
               </View>
-              
+
               <View style={styles.processStep}>
                 <View style={styles.stepNumber}>
                   <Text style={styles.stepNumberText}>2</Text>
                 </View>
-                <Text style={styles.stepTitle}>Exercícios</Text>
+                <Text style={styles.stepTitle}>Exercises</Text>
                 <Text style={styles.stepDescription}>
-                  Fortalecemos áreas específicas com técnicas direcionadas
+                  We target specific areas with focused techniques
                 </Text>
               </View>
-              
+
               <View style={styles.processStep}>
                 <View style={styles.stepNumber}>
                   <Text style={styles.stepNumberText}>3</Text>
                 </View>
-                <Text style={styles.stepTitle}>Relaxamento</Text>
+                <Text style={styles.stepTitle}>Relaxation</Text>
                 <Text style={styles.stepDescription}>
-                  Finalizamos com técnicas de relaxamento e massagem
+                  We finish with calming techniques and facial massage
                 </Text>
               </View>
             </View>
@@ -91,30 +89,30 @@ export default function AboutScreen() {
 
           {/* Features */}
           <View style={styles.featuresContainer}>
-            <Text style={styles.sectionTitle}>Por que Escolher Nosso Método?</Text>
-            
+            <Text style={styles.sectionTitle}>Why Choose Our Method?</Text>
+
             <View style={styles.featuresList}>
               <View style={styles.featureItem}>
                 <Shield size={32} color={Colors.primary} />
                 <Text style={styles.featureTitle}>100% Natural</Text>
                 <Text style={styles.featureDescription}>
-                  Sem procedimentos invasivos, agulhas ou produtos químicos
+                  No invasive procedures, needles, or chemicals
                 </Text>
               </View>
-              
+
               <View style={styles.featureItem}>
                 <Clock size={32} color={Colors.primary} />
-                <Text style={styles.featureTitle}>Apenas 10 Minutos</Text>
+                <Text style={styles.featureTitle}>Just 10 Minutes</Text>
                 <Text style={styles.featureDescription}>
-                  Exercícios práticos que cabem na sua rotina diária
+                  Practical exercises that fit into your daily routine
                 </Text>
               </View>
-              
+
               <View style={styles.featureItem}>
                 <Users size={32} color={Colors.primary} />
-                <Text style={styles.featureTitle}>Milhares de Mulheres</Text>
+                <Text style={styles.featureTitle}>Thousands of Women</Text>
                 <Text style={styles.featureDescription}>
-                  Mais de 10.000 mulheres já transformaram seus rostos
+                  Over 10,000 women have already transformed their faces
                 </Text>
               </View>
             </View>
@@ -122,20 +120,18 @@ export default function AboutScreen() {
 
           {/* Guarantee */}
           <View style={styles.guaranteeContainer}>
-            <Text style={styles.guaranteeTitle}>Nossa Garantia</Text>
+            <Text style={styles.guaranteeTitle}>Our Guarantee</Text>
             <Text style={styles.guaranteeText}>{aboutContent.guarantee}</Text>
             <Text style={styles.guaranteeSubtext}>
-              Se você não notar diferença nos primeiros 7 dias, oferecemos 
-              suporte personalizado para ajustar sua prática.
+              If you don't see results in the first 7 days, we offer personalized support to adjust your routine.
             </Text>
           </View>
 
           {/* Call to Action */}
           <View style={styles.ctaContainer}>
-            <Text style={styles.ctaTitle}>Pronta para Começar?</Text>
+            <Text style={styles.ctaTitle}>Ready to Start?</Text>
             <Text style={styles.ctaText}>
-              Junte-se a milhares de mulheres que já descobriram o segredo 
-              para um rosto mais jovem e radiante naturalmente.
+              Join thousands of women who have already discovered the secret to a younger, more radiant face—naturally.
             </Text>
           </View>
         </ScrollView>
@@ -143,6 +139,11 @@ export default function AboutScreen() {
     </GradientBackground>
   );
 }
+
+const styles = StyleSheet.create({
+  container: { flex: 1 },
+  // (rest of the styles remain unchanged)
+});
 
 const styles = StyleSheet.create({
   container: {
