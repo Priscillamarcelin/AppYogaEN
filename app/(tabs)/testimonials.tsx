@@ -1,3 +1,5 @@
+// TestimonialsScreen.tsx (Translated to English)
+
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -14,13 +16,13 @@ export default function TestimonialsScreen() {
 
   const handleSubmitTestimonial = () => {
     if (!userName.trim() || !userTestimonial.trim()) {
-      Alert.alert('Ops!', 'Por favor, preencha seu nome e depoimento.');
+      Alert.alert('Oops!', 'Please fill in your name and testimonial.');
       return;
     }
 
     Alert.alert(
-      'Obrigada! 💖',
-      'Seu depoimento foi enviado com sucesso! Ele será revisado e pode aparecer na nossa lista de histórias inspiradoras.',
+      'Thank you! 💖',
+      'Your testimonial has been successfully submitted! It will be reviewed and may appear in our list of inspiring stories.',
       [
         {
           text: 'Ok',
@@ -53,7 +55,7 @@ export default function TestimonialsScreen() {
           <View style={styles.header}>
             <Text style={styles.title}>Testimonials</Text>
             <Text style={styles.subtitle}>
-              Histórias reais de mulheres que transformaram seus rostos
+              Real stories from women who transformed their faces
             </Text>
           </View>
 
@@ -64,7 +66,7 @@ export default function TestimonialsScreen() {
                 <View style={styles.testimonialHeader}>
                   <View style={styles.authorInfo}>
                     <Text style={styles.authorName}>{testimonial.name}</Text>
-                    <Text style={styles.authorAge}>{testimonial.age} anos</Text>
+                    <Text style={styles.authorAge}>{testimonial.age} years old</Text>
                   </View>
                   <View style={styles.rating}>
                     {renderStars(testimonial.rating)}
@@ -75,7 +77,7 @@ export default function TestimonialsScreen() {
                 
                 <View style={styles.testimonialFooter}>
                   <MessageCircle size={16} color={Colors.primary} />
-                  <Text style={styles.verifiedText}>Depoimento verificado</Text>
+                  <Text style={styles.verifiedText}>Verified testimonial</Text>
                 </View>
               </View>
             ))}
@@ -84,13 +86,12 @@ export default function TestimonialsScreen() {
           {/* User Testimonial Form */}
           {!showForm ? (
             <View style={styles.ctaContainer}>
-              <Text style={styles.ctaTitle}>Sua História Importa!</Text>
+              <Text style={styles.ctaTitle}>Your Story Matters!</Text>
               <Text style={styles.ctaText}>
-                Você já começou ou completou o desafio? Compartilhe sua experiência 
-                e inspire outras mulheres a transformarem seus rostos naturalmente.
+                Have you started or completed the challenge? Share your experience and inspire other women to transform their faces naturally.
               </Text>
               <Button
-                title="Quero deixar meu depoimento"
+                title="I want to leave my testimonial"
                 onPress={() => setShowForm(true)}
                 size="large"
                 style={styles.ctaButton}
@@ -98,29 +99,29 @@ export default function TestimonialsScreen() {
             </View>
           ) : (
             <View style={styles.formContainer}>
-              <Text style={styles.formTitle}>Seu Depoimento</Text>
+              <Text style={styles.formTitle}>Your Testimonial</Text>
               <Text style={styles.formSubtitle}>
-                Conte sua experiência com o Yoga Facial 28 Dias
+                Share your experience with the 28-Day Facial Yoga journey
               </Text>
               
               <View style={styles.inputContainer}>
-                <Text style={styles.inputLabel}>Seu nome</Text>
+                <Text style={styles.inputLabel}>Your name</Text>
                 <TextInput
                   style={styles.textInput}
                   value={userName}
                   onChangeText={setUserName}
-                  placeholder="Como você gostaria de ser chamada?"
+                  placeholder="How would you like to be called?"
                   placeholderTextColor={Colors.text.secondary}
                 />
               </View>
               
               <View style={styles.inputContainer}>
-                <Text style={styles.inputLabel}>Sua experiência</Text>
+                <Text style={styles.inputLabel}>Your experience</Text>
                 <TextInput
                   style={[styles.textInput, styles.textArea]}
                   value={userTestimonial}
                   onChangeText={setUserTestimonial}
-                  placeholder="Conte como foi sua experiência com o yoga facial. Como você se sente? Que mudanças notou? Qual foi o impacto na sua autoestima?"
+                  placeholder="Describe your experience with facial yoga. How do you feel? What changes have you noticed? How has it impacted your self-esteem?"
                   placeholderTextColor={Colors.text.secondary}
                   multiline
                   numberOfLines={4}
@@ -130,14 +131,14 @@ export default function TestimonialsScreen() {
               
               <View style={styles.formButtons}>
                 <Button
-                  title="Cancelar"
+                  title="Cancel"
                   onPress={() => setShowForm(false)}
                   variant="outline"
                   size="medium"
                   style={styles.cancelButton}
                 />
                 <Button
-                  title="Enviar"
+                  title="Submit"
                   onPress={handleSubmitTestimonial}
                   size="medium"
                   style={styles.submitButton}
@@ -148,19 +149,19 @@ export default function TestimonialsScreen() {
 
           {/* Statistics */}
           <View style={styles.statsContainer}>
-            <Text style={styles.statsTitle}>Resultados Comprovados</Text>
+            <Text style={styles.statsTitle}>Proven Results</Text>
             <View style={styles.statsGrid}>
               <View style={styles.statItem}>
                 <Text style={styles.statNumber}>95%</Text>
-                <Text style={styles.statLabel}>Notaram diferença em 7 dias</Text>
+                <Text style={styles.statLabel}>Saw results in 7 days</Text>
               </View>
               <View style={styles.statItem}>
                 <Text style={styles.statNumber}>87%</Text>
-                <Text style={styles.statLabel}>Completaram os 28 dias</Text>
+                <Text style={styles.statLabel}>Completed all 28 days</Text>
               </View>
               <View style={styles.statItem}>
                 <Text style={styles.statNumber}>92%</Text>
-                <Text style={styles.statLabel}>Recomendariam para amigas</Text>
+                <Text style={styles.statLabel}>Would recommend to a friend</Text>
               </View>
             </View>
           </View>
