@@ -260,7 +260,7 @@ export const testimonials = [
   },
   {
     id: 4,
-    name: "Patricia Oliveira",
+    name: "Emma",
     age: 45,
     text: "I never thought I could get such visible results without invasive procedures. Simply transformative!",
     rating: 5
