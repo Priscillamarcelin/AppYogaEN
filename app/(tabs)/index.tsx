@@ -135,7 +135,7 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({ /* unchanged styles */ });
+const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
