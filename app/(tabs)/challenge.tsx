@@ -20,9 +20,9 @@ export default function ChallengeScreen() {
   const handleCompleteDay = () => {
     markDayCompleted(selectedDay);
     Alert.alert(
-      'Parabéns! 🎉',
-      `Você completou o dia ${selectedDay}! Continue assim, você está no caminho certo para um rosto mais jovem e radiante.`,
-      [{ text: 'Continuar', style: 'default' }]
+      'Congratulations! 🎉',
+      `You completed day ${selectedDay}! Keep going, you're on your way to a more youthful and radiant face.`,
+      [{ text: 'Continue', style: 'default' }]
     );
   };
 
@@ -32,12 +32,12 @@ export default function ChallengeScreen() {
 
   const getMotivationalMessage = () => {
     const completed = completedDays.filter(Boolean).length;
-    if (completed === 0) return "Hoje você dá o primeiro passo! 🌱";
-    if (completed === 7) return "Uma semana completa! Você já pode sentir a diferença? ✨";
-    if (completed === 14) return "Duas semanas! Sua dedicação está transformando seu rosto! 💫";
-    if (completed === 21) return "Três semanas! Você está quase lá, guerreira! 🔥";
-    if (completed === 28) return "PARABÉNS! Você completou o desafio! Você é incrível! 🏆";
-    return "Cada dia você fica mais radiante! Continue! 💖";
+    if (completed === 0) return "Today you take the first step! 🌱";
+    if (completed === 7) return "One full week! Can you feel the difference already? ✨";
+    if (completed === 14) return "Two weeks! Your dedication is transforming your face! 💫";
+    if (completed === 21) return "Three weeks! You're almost there, warrior! 🔥";
+    if (completed === 28) return "CONGRATULATIONS! You've completed the challenge! You're amazing! 🏆";
+    return "Every day you shine brighter! Keep going! 💖";
   };
 
   const getEmbedUrl = (url: string) => {
@@ -58,10 +58,10 @@ export default function ChallengeScreen() {
       <SafeAreaView style={styles.container}>
         <ScrollView showsVerticalScrollIndicator={false}>
           <View style={styles.header}>
-            <Text style={styles.title}>Challenge 28 Dias</Text>
+            <Text style={styles.title}>28-Day Challenge</Text>
             <Text style={styles.subtitle}>{getMotivationalMessage()}</Text>
             <ProgressBar progress={progressPercentage} height={10} style={styles.progressBar} />
-            <Text style={styles.progressText}>{progressPercentage}% concluído</Text>
+            <Text style={styles.progressText}>{progressPercentage}% completed</Text>
           </View>
 
           <View style={styles.exerciseContainer}>
@@ -80,7 +80,7 @@ export default function ChallengeScreen() {
                       style={{ width: "100%", height: "100%", border: "none" }}
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      title="Vídeo"
+                      title="Video"
                     />
                   </View>
                 ) : (
@@ -110,7 +110,7 @@ export default function ChallengeScreen() {
             <View style={styles.actionButtons}>
               {!completedDays[selectedDay - 1] ? (
                 <Button
-                  title="Marcar como Concluído"
+                  title="Mark as Completed"
                   onPress={handleCompleteDay}
                   size="large"
                   style={styles.completeButton}
@@ -118,13 +118,13 @@ export default function ChallengeScreen() {
               ) : (
                 <View style={styles.completedContainer}>
                   <CheckCircle size={24} color={Colors.success} />
-                  <Text style={styles.completedText}>Dia Concluído!</Text>
+                  <Text style={styles.completedText}>Day Completed!</Text>
                 </View>
               )}
 
               {selectedDay < 28 && completedDays[selectedDay - 1] && (
                 <Button
-                  title="Próximo Dia"
+                  title="Next Day"
                   onPress={() => setSelectedDay(selectedDay + 1)}
                   variant="secondary"
                   size="large"
@@ -135,7 +135,7 @@ export default function ChallengeScreen() {
           </View>
 
           <View style={styles.daysContainer}>
-            <Text style={styles.daysTitle}>Todos os Dias</Text>
+            <Text style={styles.daysTitle}>All Days</Text>
             <View style={styles.daysGrid}>
               {Array.from({ length: 28 }, (_, index) => {
                 const day = index + 1;
@@ -174,10 +174,10 @@ export default function ChallengeScreen() {
           {progressPercentage === 100 && (
             <View style={styles.achievementContainer}>
               <Trophy size={48} color={Colors.warning} />
-              <Text style={styles.achievementTitle}>Challenge Completo!</Text>
+              <Text style={styles.achievementTitle}>Challenge Complete!</Text>
               <Text style={styles.achievementText}>
-                Você completou os 28 dias! Seu rosto está mais jovem, firme e radiante. 
-                Parabéns pela sua dedicação!
+                You've completed the 28 days! Your face is now younger, firmer, and more radiant. 
+                Congratulations on your dedication!
               </Text>
             </View>
           )}
