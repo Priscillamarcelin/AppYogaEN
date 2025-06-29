@@ -1,237 +1,237 @@
 export const exerciseData = [
   {
     day: 1,
-    title: "Aquecimento Facial",
-    description: "Começamos com movimentos suaves para despertar a musculatura do rosto",
+    title: "Facial Warm-up",
+    description: "We start with gentle movements to awaken facial muscles",
     videoUrl: "https://www.youtube.com/embed/U5EMa-EtBBI",
-    motivation: "Hoje você dá o primeiro passo para transformar seu rosto naturalmente. Seja gentil consigo mesma!"
+    motivation: "Today you take the first step to transform your face naturally. Be kind to yourself!"
   },
   {
     day: 2,
-    title: "Fortalecimento da Testa",
-    description: "Exercícios específicos para suavizar linhas de expressão na testa",
+    title: "Forehead Strengthening",
+    description: "Targeted exercises to smooth forehead expression lines",
     videoUrl: "https://www.youtube.com/embed/fjwY_UNUigs",
-    motivation: "Cada movimento hoje está construindo uma versão mais radiante de você!"
+    motivation: "Each movement today is building a more radiant version of you!"
   },
   {
     day: 3,
-    title: "Contorno dos Olhos",
-    description: "Técnicas para fortalecer a área dos olhos e reduzir rugas",
+    title: "Eye Contour",
+    description: "Techniques to strengthen the eye area and reduce wrinkles",
     videoUrl: "https://www.youtube.com/embed/QKHDJlXLz-U",
-    motivation: "Seus olhos são o espelho da alma. Cuide deles com carinho hoje!"
+    motivation: "Your eyes are the mirror of your soul. Care for them lovingly today!"
   },
   {
     day: 4,
-    title: "Bochechas Firmes",
-    description: "Vamos levantar e tonificar as maçãs do rosto com movimentos potentes",
+    title: "Firm Cheeks",
+    description: "Lift and tone cheekbones with powerful moves",
     videoUrl: "https://www.youtube.com/embed/71ykgtrc76Q",
-    motivation: "Seu sorriso vai brilhar ainda mais com bochechas firmes!"
+    motivation: "Your smile will shine even more with firm cheeks!"
   },
   {
     day: 5,
-    title: "Lábios Jovens",
-    description: "Exercícios para evitar o código de barras e dar volume aos lábios",
+    title: "Youthful Lips",
+    description: "Exercises to avoid lip lines and add volume",
     videoUrl: "https://www.youtube.com/embed/2MQugCxiiV0",
-    motivation: "Beleza natural começa com pequenos gestos. Continue firme!"
+    motivation: "Natural beauty begins with small gestures. Keep going!"
   },
   {
     day: 6,
-    title: "Papada Nunca Mais",
-    description: "Foco na região do pescoço e papada para mais firmeza e contorno",
+    title: "No More Double Chin",
+    description: "Focus on the neck and chin area for more firmness and contour",
     videoUrl: "https://www.youtube.com/embed/G3VmsbN_HTs",
-    motivation: "Diga adeus à papada e olá para o contorno definido!"
+    motivation: "Say goodbye to double chin and hello to a defined jawline!"
   },
   {
     day: 7,
-    title: "Relaxamento Facial",
-    description: "Dia de liberar tensões acumuladas e integrar os exercícios da semana",
+    title: "Facial Relaxation",
+    description: "Release tension and integrate this week’s practice",
     videoUrl: "https://www.youtube.com/embed/OR0eFO0yFl8",
-    motivation: "Você merece esse momento de cuidado e descanso facial!"
+    motivation: "You deserve this moment of facial care and rest!"
   },
   {
     day: 8,
-    title: "Reativando a Circulação",
-    description: "Estimulando a oxigenação da pele para brilho natural",
+    title: "Boosting Circulation",
+    description: "Stimulate skin oxygenation for a natural glow",
     videoUrl: "https://www.youtube.com/embed/U5EMa-EtBBI",
-    motivation: "A pele bem irrigada é uma pele cheia de vida. Respire fundo e sinta!"
+    motivation: "Well-circulated skin is full of life. Take a deep breath and feel it!"
   },
   {
     day: 9,
-    title: "Olhar Renovado",
-    description: "Mais firmeza nas pálpebras e menos bolsas sob os olhos",
+    title: "Refreshed Look",
+    description: "More firmness on the eyelids and reduced puffiness",
     videoUrl: "https://www.youtube.com/embed/fjwY_UNUigs",
-    motivation: "Seus olhos carregam histórias lindas. Realce esse brilho único!"
+    motivation: "Your eyes carry beautiful stories. Let their shine stand out!"
   },
   {
     day: 10,
-    title: "Testa Lisa",
-    description: "Repetição e variação para suavizar linhas horizontais profundas",
+    title: "Smooth Forehead",
+    description: "Repetition and variation to smooth deep horizontal lines",
     videoUrl: "https://www.youtube.com/embed/QKHDJlXLz-U",
-    motivation: "A consistência gera resultados. Você está no caminho certo!"
+    motivation: "Consistency brings results. You're on the right path!"
   },
   {
     day: 11,
-    title: "Elevando as Sobrancelhas",
-    description: "Movimentos para abrir o olhar e levantar a expressão facial",
+    title: "Lifting Eyebrows",
+    description: "Movements to open the gaze and lift expression",
     videoUrl: "https://www.youtube.com/embed/71ykgtrc76Q",
-    motivation: "Seu olhar comunica poder e leveza. Continue esculpindo essa energia!"
+    motivation: "Your gaze radiates power and lightness. Keep sculpting that energy!"
   },
   {
     day: 12,
-    title: "Reforço das Bochechas",
-    description: "Nova rodada para fortalecer e levantar as laterais do rosto",
+    title: "Cheek Strengthening",
+    description: "A new round to lift and strengthen facial sides",
     videoUrl: "https://www.youtube.com/embed/2MQugCxiiV0",
-    motivation: "Seu rosto está ganhando forma e vitalidade a cada dia!"
+    motivation: "Your face is gaining shape and vitality every day!"
   },
   {
     day: 13,
-    title: "Lábios e Sorriso",
-    description: "Ativação muscular ao redor da boca para suavizar sulcos e valorizar o sorriso",
+    title: "Lips & Smile",
+    description: "Muscle activation around the mouth to smooth lines and enhance smile",
     videoUrl: "https://www.youtube.com/embed/G3VmsbN_HTs",
-    motivation: "Seu sorriso é sua assinatura. Cuide dele com amor!"
+    motivation: "Your smile is your signature. Treat it with love!"
   },
   {
     day: 14,
-    title: "Integração + Relaxamento",
-    description: "Integração do que foi trabalhado com foco em relaxamento",
+    title: "Integration + Relaxation",
+    description: "Combine what was worked on with a focus on relaxation",
     videoUrl: "https://www.youtube.com/embed/OR0eFO0yFl8",
-    motivation: "Hoje é um dia de suavizar. Você merece um descanso consciente!"
+    motivation: "Today is for softening. You deserve mindful rest!"
   },
   {
     day: 15,
-    title: "Tonificação Global",
-    description: "Exercícios que ativam todas as regiões faciais para um boost geral",
+    title: "Global Toning",
+    description: "Exercises that activate all facial areas for an overall boost",
     videoUrl: "https://www.youtube.com/embed/U5EMa-EtBBI",
-    motivation: "Sinta o poder de um rosto ativo e vivo!"
+    motivation: "Feel the power of an active, vibrant face!"
   },
   {
     day: 16,
-    title: "Área dos Olhos - Avançado",
-    description: "Aprimorando os resultados com técnicas mais profundas",
+    title: "Eye Area – Advanced",
+    description: "Deepening results with advanced techniques",
     videoUrl: "https://www.youtube.com/embed/fjwY_UNUigs",
-    motivation: "Você está dominando essa arte de rejuvenescer naturalmente!"
+    motivation: "You're mastering the art of natural rejuvenation!"
   },
   {
     day: 17,
-    title: "Contorno Facial Definido",
-    description: "Foco nas laterais do rosto e mandíbula para efeito lifting",
+    title: "Defined Face Contour",
+    description: "Focus on jawline and sides of the face for a lifting effect",
     videoUrl: "https://www.youtube.com/embed/QKHDJlXLz-U",
-    motivation: "Seu rosto está mais definido a cada exercício. Continue assim!"
+    motivation: "Your face is becoming more defined with each exercise. Keep going!"
   },
   {
     day: 18,
-    title: "Sorriso Vibrante",
-    description: "Ativação dos músculos do riso e estímulo de colágeno",
+    title: "Vibrant Smile",
+    description: "Activate laugh muscles and stimulate collagen",
     videoUrl: "https://www.youtube.com/embed/71ykgtrc76Q",
-    motivation: "Sorrir com confiança é o maior presente que você pode se dar!"
+    motivation: "Smiling with confidence is the greatest gift you can give yourself!"
   },
   {
     day: 19,
-    title: "Papada e Pescoço – Reforço",
-    description: "Vamos reforçar o tratamento da região inferior do rosto",
+    title: "Chin & Neck – Boost",
+    description: "Let’s reinforce treatment in the lower face region",
     videoUrl: "https://www.youtube.com/embed/2MQugCxiiV0",
-    motivation: "Dedicação e repetição geram firmeza e transformação!"
+    motivation: "Dedication and repetition bring firmness and transformation!"
   },
   {
     day: 20,
-    title: "Testa – Finalização",
-    description: "Exercícios combinados para selar os resultados na testa",
+    title: "Forehead – Final Touch",
+    description: "Combine exercises to seal results in the forehead",
     videoUrl: "https://www.youtube.com/embed/G3VmsbN_HTs",
-    motivation: "Você já chegou tão longe. Cada detalhe importa!"
+    motivation: "You’ve come so far. Every detail matters!"
   },
   {
     day: 21,
-    title: "Massagem de Integração",
-    description: "Massagem profunda para integrar músculos e relaxar",
+    title: "Integration Massage",
+    description: "Deep massage to integrate muscles and relax",
     videoUrl: "https://www.youtube.com/embed/OR0eFO0yFl8",
-    motivation: "Hoje é sobre sentir. Deixe a energia fluir pelo seu rosto!"
+    motivation: "Today is about feeling. Let the energy flow through your face!"
   },
   {
     day: 22,
-    title: "Brilho Natural",
-    description: "Reativando pontos de luz e promovendo circulação",
+    title: "Natural Glow",
+    description: "Reactivating glow points and boosting circulation",
     videoUrl: "https://www.youtube.com/embed/U5EMa-EtBBI",
-    motivation: "O brilho da sua pele reflete o seu cuidado interior!"
+    motivation: "Your skin’s glow reflects your inner care!"
   },
   {
     day: 23,
-    title: "Fortalecimento Global",
-    description: "Trabalho completo dos grupos musculares mais importantes",
+    title: "Full Strengthening",
+    description: "Complete workout for the main facial muscle groups",
     videoUrl: "https://www.youtube.com/embed/fjwY_UNUigs",
-    motivation: "Você está mais forte, mais viva, mais você!"
+    motivation: "You are stronger, more alive, more you!"
   },
   {
     day: 24,
-    title: "Suavização de Linhas",
-    description: "Trabalho direcionado para rugas finas e linhas ao redor da boca e olhos",
+    title: "Line Smoothing",
+    description: "Targeted work on fine lines around mouth and eyes",
     videoUrl: "https://www.youtube.com/embed/QKHDJlXLz-U",
-    motivation: "Cada linha carrega uma história. E você pode suavizá-las com amor!"
+    motivation: "Every line tells a story. You can soften them with love!"
   },
   {
     day: 25,
-    title: "Alinhamento e Simetria",
-    description: "Exercícios para equilibrar os lados do rosto e criar harmonia",
+    title: "Alignment & Symmetry",
+    description: "Balance both sides of the face to create harmony",
     videoUrl: "https://www.youtube.com/embed/71ykgtrc76Q",
-    motivation: "A beleza está na harmonia. E você está construindo isso!"
+    motivation: "Beauty lies in harmony. And you are building it!"
   },
   {
     day: 26,
-    title: "Musculatura Profunda",
-    description: "Trabalhando camadas mais internas para efeito duradouro",
+    title: "Deep Muscle Work",
+    description: "Work on inner layers for long-lasting results",
     videoUrl: "https://www.youtube.com/embed/2MQugCxiiV0",
-    motivation: "O segredo está na profundidade. Continue!"
+    motivation: "The secret is in the depth. Keep going!"
   },
   {
     day: 27,
-    title: "Integração Final",
-    description: "Vamos revisar e ativar todas as áreas com suavidade e força",
+    title: "Final Integration",
+    description: "Let’s review and activate all areas with grace and strength",
     videoUrl: "https://www.youtube.com/embed/G3VmsbN_HTs",
-    motivation: "É hora de se orgulhar do quanto você evoluiu!"
+    motivation: "It’s time to be proud of how far you’ve come!"
   },
   {
     day: 28,
-    title: "Celebração e Manutenção",
-    description: "Último dia! Aprenda como manter os resultados e celebrar sua conquista",
+    title: "Celebration & Maintenance",
+    description: "Final day! Learn how to maintain results and celebrate your journey",
     videoUrl: "https://www.youtube.com/embed/OR0eFO0yFl8",
-    motivation: "Parabéns! Seu novo rosto é fruto da sua dedicação e amor-próprio!"
+    motivation: "Congratulations! Your new face is the result of your dedication and self-love!"
   }
 ];
 
 export const selfCareTips = [
   {
     id: 1,
-    title: "Hidrate-se abundantemente",
-    description: "Beba pelo menos 2 litros de água por dia para manter a pele hidratada de dentro para fora",
+    title: "Stay Hydrated",
+    description: "Drink at least 2 liters of water daily to keep your skin hydrated from within",
     icon: "droplets"
   },
   {
     id: 2,
-    title: "Durma 8 horas por noite",
-    description: "O sono reparador é essencial para a regeneração celular e prevenção do envelhecimento",
+    title: "Sleep 8 Hours",
+    description: "Restorative sleep is essential for cell regeneration and aging prevention",
     icon: "moon"
   },
   {
     id: 3,
-    title: "Use protetor solar diário",
-    description: "Proteja seu rosto dos raios UV mesmo em dias nublados",
+    title: "Use Sunscreen",
+    description: "Protect your face from UV rays even on cloudy days",
     icon: "sun"
   },
   {
     id: 4,
-    title: "Pratique respiração profunda",
-    description: "5 minutos de respiração consciente reduzem o stress e melhoram a circulação facial",
+    title: "Practice Deep Breathing",
+    description: "5 minutes of mindful breathing reduce stress and improve facial circulation",
     icon: "wind"
   },
   {
     id: 5,
-    title: "Massageie o rosto suavemente",
-    description: "Use movimentos circulares ao aplicar cremes para estimular a circulação",
+    title: "Massage Your Face Gently",
+    description: "Use circular motions when applying creams to stimulate blood flow",
     icon: "heart"
   },
   {
     id: 6,
-    title: "Evite açúcar em excesso",
-    description: "O açúcar acelera o processo de glicação, causando envelhecimento precoce",
+    title: "Avoid Excess Sugar",
+    description: "Sugar accelerates glycation, causing premature aging",
     icon: "x-circle"
   }
 ];
@@ -241,42 +241,42 @@ export const testimonials = [
     id: 1,
     name: "Maria Silva",
     age: 35,
-    text: "Em apenas 2 semanas já notei minha pele mais firme! Não acreditava que exercícios simples pudessem fazer tanta diferença.",
+    text: "In just 2 weeks, I already noticed firmer skin! I didn’t believe simple exercises could make such a difference.",
     rating: 5
   },
   {
     id: 2,
     name: "Ana Paula",
     age: 42,
-    text: "O yoga facial mudou minha autoestima completamente. Minhas amigas perguntam se fiz botox!",
+    text: "Facial yoga completely changed my self-esteem. My friends ask if I got Botox!",
     rating: 5
   },
   {
     id: 3,
     name: "Fernanda Costa",
     age: 38,
-    text: "Método incrível! Após os 28 dias, meu rosto está mais jovem e radiante. Recomendo para todas as mulheres!",
+    text: "Amazing method! After 28 days, my face looks younger and more radiant. I recommend it to every woman!",
     rating: 5
   },
   {
     id: 4,
     name: "Patricia Oliveira",
     age: 45,
-    text: "Nunca pensei que conseguiria resultados tão visíveis sem procedimentos invasivos. Simplesmente transformador!",
+    text: "I never thought I could get such visible results without invasive procedures. Simply transformative!",
     rating: 5
   }
 ];
 
 export const aboutContent = {
-  title: "O que é Yoga Facial?",
-  description: "O Yoga Facial é uma técnica natural e não invasiva que utiliza exercícios específicos para tonificar, fortalecer e rejuvenescer os músculos do rosto.",
+  title: "What is Facial Yoga?",
+  description: "Facial Yoga is a natural and non-invasive technique that uses specific exercises to tone, strengthen, and rejuvenate facial muscles.",
   benefits: [
-    "Redução visível de rugas e linhas de expressão",
-    "Aumento da firmeza e elasticidade da pele",
-    "Melhora da circulação sanguínea facial",
-    "Relaxamento das tensões faciais",
-    "Aumento da autoestima e confiança",
-    "Resultados naturais e duradouros"
+    "Visible reduction in wrinkles and fine lines",
+    "Increased skin firmness and elasticity",
+    "Improved facial blood circulation",
+    "Relaxation of facial tension",
+    "Boost in self-esteem and confidence",
+    "Natural and long-lasting results"
   ],
-  guarantee: "Praticando apenas 10 minutos por dia, você verá os primeiros resultados em 7 dias!"
+  guarantee: "By practicing just 10 minutes a day, you'll start seeing results within 7 days!"
 };
