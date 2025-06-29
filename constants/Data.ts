@@ -253,7 +253,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: "Fernanda Costa",
+    name: "Olivia Smith",
     age: 38,
     text: "Amazing method! After 28 days, my face looks younger and more radiant. I recommend it to every woman!",
     rating: 5
