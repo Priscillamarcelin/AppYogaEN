@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Yoga Facial 28 Dias",
-    "slug": "yoga-facial-28-dias",
+    "name": "Face Yoga 28 Days",
+    "slug": "face-yoga-28-days",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "yogafacial",
+    "scheme": "faceyogaai",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "jsEngine": "jsc",
