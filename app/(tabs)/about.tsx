@@ -141,11 +141,6 @@ export default function AboutScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1 },
-  // (rest of the styles remain unchanged)
-});
-
-const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
