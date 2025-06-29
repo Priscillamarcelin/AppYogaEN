@@ -239,7 +239,7 @@ export const selfCareTips = [
 export const testimonials = [
   {
     id: 1,
-    name: "Maria Silva",
+    name: "Isabella Davis",
     age: 35,
     text: "In just 2 weeks, I already noticed firmer skin! I didn’t believe simple exercises could make such a difference.",
     rating: 5
