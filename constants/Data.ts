@@ -246,7 +246,7 @@ export const testimonials = [
   },
   {
     id: 2,
-    name: "Ana Paula",
+    name: "Sophia Brown",
     age: 42,
     text: "Facial yoga completely changed my self-esteem. My friends ask if I got Botox!",
     rating: 5
