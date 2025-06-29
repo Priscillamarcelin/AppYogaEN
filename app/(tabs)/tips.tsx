@@ -29,9 +29,9 @@ export default function TipsScreen() {
         <ScrollView showsVerticalScrollIndicator={false}>
           {/* Header */}
           <View style={styles.header}>
-            <Text style={styles.title}>Tips de Autocuidado</Text>
+            <Text style={styles.title}>Self-Care Tips</Text>
             <Text style={styles.subtitle}>
-              Cuide-se por completo para potencializar os resultados
+              Take care of your whole self to enhance your results
             </Text>
           </View>
 
@@ -68,7 +68,7 @@ export default function TipsScreen() {
                   
                   {isFavorite && (
                     <View style={styles.favoriteTag}>
-                      <Text style={styles.favoriteTagText}>💖 Favorita</Text>
+                      <Text style={styles.favoriteTagText}>💖 Favorite</Text>
                     </View>
                   )}
                 </View>
@@ -79,9 +79,9 @@ export default function TipsScreen() {
           {/* Favorite Tips Section */}
           {favoriteTips.length > 0 && (
             <View style={styles.favoritesSection}>
-              <Text style={styles.favoritesTitle}>Suas Tips Favoritas</Text>
+              <Text style={styles.favoritesTitle}>Your Favorite Tips</Text>
               <Text style={styles.favoritesSubtitle}>
-                {favoriteTips.length} {favoriteTips.length === 1 ? 'dica favorita' : 'dicas favoritas'}
+                {favoriteTips.length} {favoriteTips.length === 1 ? 'favorite tip' : 'favorite tips'}
               </Text>
               
               <View style={styles.favoritesList}>
@@ -104,10 +104,9 @@ export default function TipsScreen() {
 
           {/* Call to Action */}
           <View style={styles.ctaContainer}>
-            <Text style={styles.ctaTitle}>Lembre-se</Text>
+            <Text style={styles.ctaTitle}>Reminder</Text>
             <Text style={styles.ctaText}>
-              O yoga facial funciona melhor quando combinado com hábitos saudáveis. 
-              Suas escolhas diárias fazem toda a diferença no resultado final!
+              Facial yoga works best when combined with healthy habits. Your daily choices make all the difference in the final result!
             </Text>
           </View>
         </ScrollView>
@@ -115,6 +114,7 @@ export default function TipsScreen() {
     </GradientBackground>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
