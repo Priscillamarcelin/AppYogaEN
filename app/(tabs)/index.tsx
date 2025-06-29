@@ -16,43 +16,43 @@ export default function HomeScreen() {
 
   const menuItems = [
     {
-      title: 'Iniciar Challenge',
+      title: 'Start Challenge',
       subtitle: `Day ${currentDay} of 28`,
       icon: Play,
       color: Colors.primary,
       onPress: () => router.push('/challenge')
     },
     {
-      title: 'Ver Progresso',
-      subtitle: `${progressPercentage}% concluído`,
+      title: 'View Progress',
+      subtitle: `${progressPercentage}% completed`,
       icon: Calendar,
       color: Colors.primary,
       onPress: () => router.push('/challenge')
     },
     {
-      title: 'Tips de Autocuidado',
-      subtitle: 'Cuide-se por completo',
+      title: 'Self-care Tips',
+      subtitle: 'Take care of yourself completely',
       icon: Heart,
       color: '#E17055',
       onPress: () => router.push('/tips')
     },
     {
       title: 'Testimonials',
-      subtitle: 'Histórias inspiradoras',
+      subtitle: 'Inspiring stories',
       icon: MessageCircle,
       color: '#74B9FF',
       onPress: () => router.push('/testimonials')
     },
     {
-      title: 'About o Método',
-      subtitle: 'Entenda o yoga facial',
+      title: 'About the Method',
+      subtitle: 'Understand facial yoga',
       icon: Info,
       color: '#FDCB6E',
       onPress: () => router.push('/about')
     },
     {
-      title: 'Bônus',
-      subtitle: 'Conteúdos extras exclusivos',
+      title: 'Bonuses',
+      subtitle: 'Exclusive extra content',
       icon: Gift,
       color: '#A29BFE',
       onPress: () => router.push('/bonuses')
@@ -68,10 +68,10 @@ export default function HomeScreen() {
             <View style={styles.logoContainer}>
               <Sparkles size={32} color={Colors.primary} />
             </View>
-            <Text style={styles.title}>Yoga Facial</Text>
-            <Text style={styles.subtitle}>28 Dias</Text>
+            <Text style={styles.title}>Face Yoga</Text>
+            <Text style={styles.subtitle}>28 Days</Text>
             <Text style={styles.welcome}>
-              Bem-vinda ao seu programa de rejuvenescimento natural
+              Welcome to your natural rejuvenation program
             </Text>
           </View>
 
@@ -83,16 +83,16 @@ export default function HomeScreen() {
               resizeMode="cover"
             />
             <View style={styles.heroOverlay}>
-              <Text style={styles.heroText}>Transforme seu rosto naturalmente</Text>
+              <Text style={styles.heroText}>Transform your face naturally</Text>
             </View>
           </View>
 
           {/* Progress Section */}
           {progressPercentage > 0 && (
             <View style={styles.progressSection}>
-              <Text style={styles.progressTitle}>Seu Progresso</Text>
+              <Text style={styles.progressTitle}>Your Progress</Text>
               <ProgressBar progress={progressPercentage} height={12} />
-              <Text style={styles.progressText}>{progressPercentage}% concluído</Text>
+              <Text style={styles.progressText}>{progressPercentage}% completed</Text>
             </View>
           )}
 
@@ -118,12 +118,12 @@ export default function HomeScreen() {
 
           {/* Call to Action */}
           <View style={styles.ctaContainer}>
-            <Text style={styles.ctaTitle}>Pronta para começar?</Text>
+            <Text style={styles.ctaTitle}>Ready to start?</Text>
             <Text style={styles.ctaSubtitle}>
-              Apenas 10 minutos por dia para um rosto mais jovem e radiante
+              Just 10 minutes a day for a younger and more radiant face
             </Text>
             <Button
-              title="Começar Agora"
+              title="Start Now"
               onPress={() => router.push('/challenge')}
               size="large"
               style={styles.ctaButton}
@@ -135,7 +135,7 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ /* unchanged styles */ });
   container: {
     flex: 1,
   },
