@@ -3,7 +3,7 @@ export const exerciseData = [
     day: 1,
     title: "Facial Warm-up",
     description: "We start with gentle movements to awaken facial muscles",
-    videoUrl: "https://www.youtube.com/embed/U5EMa-EtBBI",
+    videoUrl: "https://player.vimeo.com/video/795302881",
     motivation: "Today you take the first step to transform your face naturally. Be kind to yourself!"
   },
   {
