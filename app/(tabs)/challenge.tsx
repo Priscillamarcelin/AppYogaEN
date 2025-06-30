@@ -72,7 +72,7 @@ export default function ChallengeScreen() {
             </View>
 
             <View style={styles.videoContainer}>
-              {selectedExercise.videoUrl.trim().includes("youtube.com") || selectedExercise.videoUrl.trim().includes("youtu.be") ? (
+              {["youtube.com", "youtu.be", "vimeo.com", "player.vimeo.com"].some(domain => selectedExercise.videoUrl.includes(domain)) ? (
                 Platform.OS === 'web' ? (
                   <View style={{ width: "100%", height: "100%" }}>
                     <iframe
